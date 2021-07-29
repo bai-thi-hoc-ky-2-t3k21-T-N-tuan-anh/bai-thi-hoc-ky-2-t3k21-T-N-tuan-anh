@@ -2,7 +2,7 @@
   margin: auto;
   width: 1125px;
   height: 650px;
-  border: 5px solid #dcdcdc;
+  border: 2px solid green;
 }
 
 .blue {
@@ -70,26 +70,46 @@ div.leftcontent {
   float: left;
   width: 360px;
   height: 645px;
-  border: 3px solid red;
 }
 
 div.rightcontent {
   float: right;
   width: 750px;
   height: 645px;
-  border: 3px solid red;
 }
 
 div.rightcontentTitle {
   width: 744px;
   height: 40px;
-  border: 3px solid red;
 }
 
-.card1 {
-  width: 250px;
-  height: 40px;
-  border: 3px solid red;
+.column {
+  float: left;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px;
+  margin-left: 1px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  width: 230px;
+  height: 270px;
+  background-color: white;
 }
 
 hr.new4 {
