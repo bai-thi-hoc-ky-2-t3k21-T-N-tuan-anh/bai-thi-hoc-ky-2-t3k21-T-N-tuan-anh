@@ -1,6 +1,6 @@
 .center {
   margin: auto;
-  width: 1125px;
+  width: 1120px;
   height: 650px;
   border: 2px solid green;
 }
@@ -86,7 +86,7 @@ div.rightcontentTitle {
 
 .row {
   margin: 0 -5px;
-  margin-left: 1px;
+  margin-left: -9px;
 }
 
 .row:after {
@@ -110,6 +110,7 @@ div.rightcontentTitle {
 
 hr.new4 {
   border: 1px solid #3498DB;
+  width: 750px;
 }
 
 .dropdown a:hover {background-color: #ddd;}
