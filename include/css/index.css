@@ -28,7 +28,7 @@ div.content {
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #3498DB;
+  background-color: #2980B9;
 }
 
 .dropdown {
@@ -86,7 +86,7 @@ div.rightcontentTitle {
 
 .row {
   margin: 0 -5px;
-  margin-left: -9px;
+  margin-left: 1px;
 }
 
 .row:after {
